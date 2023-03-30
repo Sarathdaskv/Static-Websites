@@ -1,0 +1,585 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Noto Sans', sans-serif;
+}
+ html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+  } 
+.banner{
+    height:40px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.banner ul{
+    list-style: none;
+    display: flex;
+    /* align-items: center; */
+}
+.banner ul li a{ 
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    font-weight: 400;
+}
+.banner ul li{
+    margin-right: 20px;
+}
+.banner ul li img{
+    margin-right: 20px;
+    
+} 
+.language{
+    margin-left: 20px;
+}
+.rightbanner{
+    margin-right: 100px;
+}
+.banner ul li a:hover{ 
+    text-decoration: underline white;
+}
+.navbar{
+    display: flex;
+    /* background-color: aqua; */
+}
+.content ul{
+    list-style: none;
+    display: flex;
+    /* align-items: center; */
+}
+.content ul li a{ 
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 17px;
+    padding-bottom: 16px;
+    padding-right: 6px;
+    padding-left: 6px;
+}
+.content ul li{
+    margin-right: 18px;
+}
+.fa-magnifying-glass{
+    color: black;
+}
+.search input{
+    padding: 6px;
+    margin-right: 212px;
+}
+.fa-user{
+    color:black
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.search{
+    position: relative;
+    margin-right: -216px;
+}
+.fa-user :hover{
+    color: #FA6600;
+}
+.icons span:hover{
+    color: #FA6600;
+}
+.search img{
+    position: absolute;
+    top: 8px;
+    left: 12px;
+}
+.logo img{
+    margin-left: 95px;
+}
+.content{
+    margin-right: 469px;
+}
+.icons{
+    margin-right: 108px;
+}
+.content ul li a:hover {
+background-color: black;
+}
+.content ul li a:hover {
+    color: white;
+    }
+.celebrate{
+    height: 40px;
+    background-color: #FA6600;
+    text-align: center;
+}
+.celebrate p{
+    font-weight: 500;
+font-size: 20px;
+    color: white;
+}
+.celebrate a{
+    color: white;   
+}
+.celebrate a:hover{
+    text-decoration: none; 
+}
+.firstsection{
+     background-image: url(images/harley.jpg); 
+     /* width: 1519px; */
+     height:100vh;
+     /* background-repeat: no-repeat; */
+     background-size: cover;
+     position: relative;
+     margin-bottom: 30px;
+}
+.firstsection h2{
+    /* position: absolute;
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+    font-family: 'Noto Sans', sans-serif;
+    /* margin-left: 115px;
+    padding-top: 79px; */
+   /* margin-bottom:20px; */
+   left: 105px;
+    position: absolute;
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+    font-family: 'Noto Sans', sans-serif;
+    margin-bottom: 20px;
+    top: 77px;
+}
+.firstsection a{
+    position: absolute;
+    padding: 12px;
+    color: white;
+    background-color: black;
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: none;
+    left: 105px;
+    top: 124px;
+}
+.biketypes{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 21px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.type{
+    padding: 0px 10px;
+    /* margin-right: 10px; */
+    border-right: 1px solid #757575;;
+}
+.type1{
+    padding: 0px 10px;
+}
+.party{
+    background-color: #EEECEB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.partyimage{
+    width: 793px;
+    height: 445px;
+    margin-top: 30px;
+    margin-right: 25px;
+    margin-left: 84px;
+}
+.partycontent h2{
+    font-size: 28px;
+    font-weight: 700;
+}
+.partycontent{
+    margin-right: 154px;
+}
+.arrow{
+    width: 20px;
+    height: 15px;
+    margin-left: 3px;
+}
+.arrow{
+    transition:  0.5s ease;
+}
+.partycontent h4:hover .arrow{
+    margin-left: 7px;
+}
+.somethingnew{
+    background-color: #EEECEB;
+    
+}
+.newcontent{
+    display: flex;
+    justify-content: space-between;
+}
+.dash{
+    border-top: 3px solid #fa6600;
+    display: inline-block;
+    height: 10px;
+    margin-left: 5px;
+    width: 24px;
+}
+.setnew{
+    padding-top: 22px;
+    margin-left: 100px;
+    font-weight: 600;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.panamerican{
+    height: 413px;
+    width: 413px;
+}
+.newarrow1{
+    width: 20px;
+    height: 15px;
+    margin-left: 3px;
+}
+/* .new1{
+    margin-left: 181px;
+} */
+.newcontent p{
+    font-size: 17px;
+    /* font-weight: 600; */
+    color: black;
+    
+}
+.newarrow1{
+    transition:  0.5s ease;
+}
+.new1 h4:hover .newarrow1{
+    margin-left: 7px;
+}
+.new3 h4:hover .newarrow1{
+    margin-left: 7px;
+}
+/* .emptyspace{
+    width: 100%;
+    background-color: #757575;
+} */
+
+.anniversary{
+    display:flex;
+     /* align-items: center;  */
+    height: 500px;
+    /* background-color: aqua; */
+    margin-bottom: 30px;
+}
+.ban{
+    width: 793px;
+    height: 445px;
+    margin-left: 23px;
+    margin-top: 34px;
+    margin-right: 100px;
+}
+.anncontent h2{
+    font-size: 30px;
+    font-weight: 600;
+    
+}
+.anncontent{
+    margin-left: 92px;
+    margin-right: 15px;
+    margin-top: 149px;
+}
+/* .bt1{
+    position: absolute;
+    text-decoration: none;
+    color: white;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 35px;
+    padding-bottom: 10px;
+background-color: #FA6600;
+font-size: 20px;
+    font-weight: 700;
+    margin-top: 15px;
+}
+.bt2{
+    position: absolute;
+    text-decoration: none;
+    color: white;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 35px;
+    padding-bottom: 10px;
+    background-color: #FA6600;
+    font-size: 20px;
+    font-weight: 700;
+    top: 128px;
+    margin-top: 25px;
+} */
+.btn3{
+    
+    color: white;
+    background-color: #FA6600;
+    font-size: 20px;
+        font-weight: 700; 
+        border: none;
+        width: 200px;
+        height: 50px;
+        margin-top: 25px;
+}
+.btn4{
+    
+    color: white;
+    background-color: #FA6600;
+    font-size: 20px;
+        font-weight: 700; 
+        border: none;
+        width: 230px;
+        height: 50px;
+        margin-top: 25px;
+}
+.newarrow2{
+     width: 20px;
+    height: 15px; 
+    color: white;
+    display: none;
+    transition: 1.7s ease-in;
+}
+.btn3:hover .newarrow2{
+    display: inline;
+    margin-left: 2px;
+     /* transition:  1.7s ease;  */
+}
+.btn4:hover .newarrow2{
+    display: inline;
+    margin-left: 2px;
+     transition:  1.7s ease; 
+}
+.arrival{
+    font-weight: 600;
+    font-size: 30px;
+    margin-left: 54px;
+}
+.arrivaltype{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.man{
+    margin-right: 57px;
+    
+}
+ .newarrivals{
+margin-bottom: 20px;
+} 
+.m1{
+width: 670px;
+height: 496px;
+margin-bottom: 14px;
+}
+.w1{
+    width: 670px;
+    height: 496px;
+    margin-bottom: 14px;
+    }
+
+.rightarrow{
+    width: 20px;
+    height: 15px;
+    margin-left: 3px;
+    transition: 0.5s ease;
+}    
+.man h4:hover .rightarrow{
+    margin-left: 7px;
+}
+.women h4:hover .rightarrow{
+    margin-left: 7px;
+}
+.anniversarybanner{
+    height: 130px;
+    background-color: black;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+}
+.anniversarybanner h1{
+    color: white;
+    font-weight: 600;
+    font-size: 32px;
+    margin-left: 53px;
+}
+.anniversarybanner p{
+color: white;
+font-weight: 500;
+    font-size: 16px;
+}
+.bikebtn{
+    color: white;
+    background-color: #FA6600;
+    font-size: 17px;
+    font-weight: 600;
+    border: none;
+    width: 300px;
+    height: 50px;
+    margin-top: 9px;
+    margin-right: 145px;
+}
+.bikearrow{
+    width: 20px;
+    height: 15px;
+    margin-left: 3px;
+    display: none;
+    transition: 2.5s ease;
+}
+.bikebtn:hover .bikearrow{
+    margin-left: 7px;
+    display: inline-block;
+}
+.footer{
+    background-color: black;
+    color: white;
+}
+.brand h2{
+    font-weight: 600;
+    margin-left: 170px;
+}
+.branddash{
+    border-top: 3px solid #fa6600;
+    display: inline-block;
+    height: 10px;
+     margin: 5px; 
+    width: 15px;
+}
+
+hr {
+    width: 90%;
+    margin-left: 54px;
+}
+.footercontent{
+    display: flex;
+    /* margin-bottom: 30px; */
+}
+.fthead{
+    font-size: 18px;
+    font-weight: 600;
+}
+.footercontent ul{
+    list-style: none;
+}
+.footercontent{
+    display: flex;
+    /* justify-content: space-around; */
+}
+.ftc2{
+    margin-left: 258px;
+}
+.ftc1{
+    margin-left: 171px;
+}
+.ftc1 ul li{
+margin-bottom: 15px;
+}
+.ftc2 ul li{
+    margin-bottom: 15px;
+    }
+
+.underlines:hover{
+    text-decoration: underline;
+}
+.underlines:hover .ic{
+    margin: 3px;
+}
+/* .ic{
+    margin-left: 15px;
+} */
+.policies a{
+    text-decoration: none;
+    color: white;
+    padding-right:10px;
+    padding-left:10px;
+    font-size: 13px;
+    
+}
+.space{
+    margin-right: 45px;
+}
+.policies{
+    margin-left: 164px;
+}
+.one{
+    border-right: 2px solid white;
+}
+.one:hover{
+    text-decoration: underline;
+}
+
+.two:hover{
+    text-decoration: underline;
+}
+.searchbox{
+    border-radius: 5px;
+    border-color: #fa6600;
+    padding-right: 109px;
+    padding-top: 23px;
+    
+    margin-left: 159px;
+}
+.searchlist{
+   position:relative;
+   margin-right: 59px;
+}
+.lk{
+    position: absolute;
+    left: 203px;
+    top: 8px;
+    font-size: 15px;
+}
+.indimage{
+    position: absolute;
+    left: 168px;
+    top: 3px;
+}
+.f1down{
+    position: absolute;
+    top: 10px;
+    left: 418px;
+}
+
+.copyright{
+    display: flex;
+    justify-content: space-between;
+}
+.writing p{
+    font-size: 11px;
+}
+.social{
+    display: flex;
+    margin-right: 305px;
+}
+
+.social a{
+    margin-right: 15px;
+}
+.writing{
+    margin-right: 68px;
+}
+.shopcontent{
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 87px;
+}
+.shopnew{
+    margin-left: 25px;
+    margin-bottom: 15px;
+}
+.apparel{
+    margin-right:20px;
+}
+.shopnew h2{
+    font-weight: 600;
+    font-size: 30px;
+    margin-left: 25px;
+}
+.shoper h4:hover .newarrow1{
+    margin-left: 7px;
+}
